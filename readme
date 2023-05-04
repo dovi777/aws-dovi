@@ -3,9 +3,10 @@
 # Amazon Linux 2023
 
 #!/bin/bash
+sudo su
 yum update -y
 yum install git -y
-git clone https://github.com/lowchoonkeat/aws-live.git
+git clone https://github.com/dovi777/aws-dovi.git
 cd aws-live
 yum install python-pip -y
 pip3 install flask pymysql boto3
